@@ -1,9 +1,11 @@
 
-FROM nginx:latest
 
-WORKDIR /app
+FROM ubuntu
 
-COPY . .
+RUN apt-get update
 
-RUN sudo apt update
+RUN apt-get -y install apache2
 
+ADD .  /var/www/html
+
+ENTRYPOINT apachectl -D FOREGROUND
