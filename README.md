@@ -40,3 +40,5 @@ This repository contains the necessary files to set up a CI/CD pipeline using Je
 
 The Dockerfile contains instructions to build a Docker image for the website.
 
+    ![image](https://github.com/Kunal-Pere/Jenkins-CI-CD-Pipeline-To-Deploy-Website-Using-Docker-Container/assets/157100045/82eb345f-195b-403f-959d-d7a09debb5e8)
+
