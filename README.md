@@ -101,5 +101,11 @@ The Jenkinsfile defines the CI/CD pipeline for building and deploying the Docker
   * Specify the branch to build (e.g., main).
   * Save the configuration and run the pipeline.
 
+### Testing the Deployment :
+
+Access the deployed website by navigating to http://<your-server-ip>:82 in your web browser.
 
 
+### Regards,
+
+### Kunal Pere
