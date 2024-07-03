@@ -9,3 +9,19 @@ This repository contains the necessary files to set up a CI/CD pipeline using Je
 * Jenkins server installed and configured
 * Docker installed on the Jenkins server
 * Git repository with website files and configuration files (Dockerfile and Jenkinsfile)
+
+### Repository Structure
+
+  .
+  ├── CSS/
+  ├── images/
+  ├── js/
+  ├── Dockerfile
+  ├── Jenkinsfile
+  ├── README.md
+  ├── about.html
+  ├── contact.html
+  ├── gallery.html
+  ├── index.html
+  └── services.html
+
