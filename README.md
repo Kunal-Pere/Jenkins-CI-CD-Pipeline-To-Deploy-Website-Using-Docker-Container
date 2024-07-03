@@ -14,14 +14,24 @@ This repository contains the necessary files to set up a CI/CD pipeline using Je
 
   .
   ├── CSS/
+  
   ├── images/
+  
   ├── js/
+  
   ├── Dockerfile
+  
   ├── Jenkinsfile
+  
   ├── README.md
+  
   ├── about.html
+  
   ├── contact.html
+  
   ├── gallery.html
+  
   ├── index.html
+  
   └── services.html
 
