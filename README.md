@@ -103,7 +103,7 @@ The Jenkinsfile defines the CI/CD pipeline for building and deploying the Docker
 
 ### Testing the Deployment :
 
-Access the deployed website by navigating to http://<your-server-ip>:82 in your web browser.
+Access the deployed website by navigating to http://your-server-ip:82 in your web browser.
 
 
 ### Regards,
