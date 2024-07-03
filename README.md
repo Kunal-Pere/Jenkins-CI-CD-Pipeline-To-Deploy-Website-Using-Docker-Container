@@ -10,7 +10,7 @@ This repository contains the necessary files to set up a CI/CD pipeline using Je
 * Docker installed on the Jenkins server
 * Git repository with website files and configuration files (Dockerfile and Jenkinsfile)
 
-### Repository Structure
+### Repository Structure :
 
   .
   
@@ -36,7 +36,7 @@ This repository contains the necessary files to set up a CI/CD pipeline using Je
   
   └── services.html
 
-### Dockerfile
+### Dockerfile :
 
 The Dockerfile contains instructions to build a Docker image for the website.
 
@@ -51,7 +51,7 @@ The Dockerfile contains instructions to build a Docker image for the website.
     ENTRYPOINT apachectl -D FOREGROUND
 
 
-### Jenkinsfile
+### Jenkinsfile :
 
 The Jenkinsfile defines the CI/CD pipeline for building and deploying the Docker container.
 
@@ -88,8 +88,18 @@ The Jenkinsfile defines the CI/CD pipeline for building and deploying the Docker
                 echo"running coffeeshop on container"
                 sh "docker run -itd -p 82:80 kunal1010/coffeeshop"
               }
+            }
           }
-      }
-  }
+        } 
+
+
+### Setting Up Jenkins Pipeline :
+
+  * Open Jenkins and create a new pipeline project.
+  * In the pipeline configuration, set the pipeline definition to "Pipeline script from SCM".
+  * Select "Git" and provide the repository URL.
+  * Specify the branch to build (e.g., main).
+  * Save the configuration and run the pipeline.
+
 
 
