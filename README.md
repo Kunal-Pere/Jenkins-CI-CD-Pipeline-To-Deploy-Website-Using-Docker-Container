@@ -13,6 +13,7 @@ This repository contains the necessary files to set up a CI/CD pipeline using Je
 ### Repository Structure
 
   .
+  
   ├── CSS/
   
   ├── images/
