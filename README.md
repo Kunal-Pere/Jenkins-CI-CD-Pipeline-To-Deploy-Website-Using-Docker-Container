@@ -36,3 +36,7 @@ This repository contains the necessary files to set up a CI/CD pipeline using Je
   
   └── services.html
 
+### Dockerfile
+
+The Dockerfile contains instructions to build a Docker image for the website.
+
