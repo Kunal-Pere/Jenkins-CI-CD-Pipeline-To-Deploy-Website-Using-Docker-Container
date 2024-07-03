@@ -43,3 +43,7 @@ The Dockerfile contains instructions to build a Docker image for the website.
 ![image](https://github.com/Kunal-Pere/Jenkins-CI-CD-Pipeline-To-Deploy-Website-Using-Docker-Container/assets/157100045/923a07d2-441d-4b1b-99a5-eea3fff2e5b2)
 
 
+### Jenkinsfile
+
+The Jenkinsfile defines the CI/CD pipeline for building and deploying the Docker container.
+
