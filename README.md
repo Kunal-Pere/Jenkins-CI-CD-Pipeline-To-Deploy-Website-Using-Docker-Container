@@ -87,9 +87,9 @@ The Jenkinsfile defines the CI/CD pipeline for building and deploying the Docker
             steps{
                 echo"running coffeeshop on container"
                 sh "docker run -itd -p 82:80 kunal1010/coffeeshop"
-            }
-        }
-    }
-}
+              }
+          }
+      }
+  }
 
 
